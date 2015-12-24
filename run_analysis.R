@@ -43,7 +43,6 @@ mean_and_deviation$label <- activity_labels[mean_and_deviation$label, 2]
 ## This part of the code will be aimed to label the data set with 
 ## descriptive variable names.
 column_names <- c("subject", "label", mean_deviation_features$V2)
-column_names <- tolower(gsub("[^[:alpha:]]", "", column_names))
 colnames(mean_and_deviation) <- column_names
 
 ## 5th PART
@@ -59,5 +58,5 @@ data <- aggregate(mean_and_deviation[, 3:ncol(mean_and_deviation)],
 
 ## Final PART - creating of txt-document in order to save a tidy data
 
-write.table(format(data, scientific=T), "TidyData.txt",
-            row.names=F, col.names=F, quote=2)
+write.table(format(data, scientific=TRUE), "TidyData.txt",
+            row.names=FALSE, col.names=FALSE, quote=2)
