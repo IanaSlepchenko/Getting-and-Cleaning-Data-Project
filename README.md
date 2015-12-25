@@ -19,6 +19,6 @@ The data used in the project was collected from the accelerometers from the Sams
 
 * 3rd PART. Uses descriptive activity names to name the activities in the data set. In particular, it  replaces the numbers with the text from "activity_labels.txt".
 
-*4th PART. Appropriately labels the data set with descriptive variable names. 
+* 4th PART. Appropriately labels the data set with descriptive variable names. 
 
-*5th PART. Based on the data set in part 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+* 5th PART. Based on the data set in part 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
