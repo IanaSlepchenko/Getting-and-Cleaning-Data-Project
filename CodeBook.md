@@ -1,6 +1,6 @@
 # CodeBook
 
-This code book describes the data, variables, the data, and any modifications/transformations which were performed in order to obtain a clean data. 
+This code book describes the data, variables, and any modifications/transformations which were performed in order to obtain a clean data. 
 
 A full description is available at the site where the data was obtained: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 The data for the project:
