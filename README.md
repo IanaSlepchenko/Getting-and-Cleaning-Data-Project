@@ -6,7 +6,7 @@ The data used in the project was collected from the accelerometers from the Sams
 ## Steps of the project:
 
 1) After uploading the data, the folder called "UCI HAR Dataset" should be used as a working directory for the project.  
-2) Put run_analysis.R in the folder "UCI HAR Dataset" in order to run the code.
+2) Put "run_analysis.R" in the folder "UCI HAR Dataset" in order to run the code.
 3) Run "run_analysis.R". As a result, a new "TidyData.txt" file should be generated in the working directory.
 
 
