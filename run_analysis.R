@@ -2,8 +2,8 @@
 ##  The code below will describe how to read and merge 
 ##  the training and the test sets in order to create one common data set.
 
-## Set a working directory:
-setwd("C:/Users/Jani/Desktop/R-programming/Rdocuments/Getting&Cleaning_Project/UCI HAR Dataset")
+## Set a working directory (made as a comment for the purpose of the project):
+## setwd("C:/Users/Jani/Desktop/R-programming/Rdocuments/Getting&Cleaning_Project/UCI HAR Dataset")
 
 ## For Test data set:
 data_test <- read.table("test/X_test.txt")
