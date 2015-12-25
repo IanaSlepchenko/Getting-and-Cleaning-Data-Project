@@ -10,7 +10,7 @@ The data used in the project was collected from the accelerometers from the Sams
 3) Run "run_analysis.R". As a result, a new "TidyData.txt" file should be generated in the working directory.
 
 
-### "run_analysis.R", its purpose and details of each step the code:  
+### "run_analysis.R", its purpose and details of each step the code  
       
       Each part of the code performes the following:
 * 1st PART. Merges the training and the test sets to create one data set. In particular, it reads all the test and training files and then combines it into one common data frame. 
